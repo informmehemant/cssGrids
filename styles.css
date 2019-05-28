@@ -1,0 +1,53 @@
+body {
+    background: #FFF176;
+}
+.d1{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    background: #2196F3;
+    text-align: center;
+    padding: 10px;
+}
+.d2{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    background: #F06292;
+    text-align: center;
+    padding: 10px;
+}
+
+.d3{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    background: #0277BD;
+    text-align: center;
+    padding: 10px;
+}
+
+.d4{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    background: #26A69A;
+    text-align: center;
+    padding: 10px; 
+}
+.d5{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    background: #F06292;
+    text-align: center;
+    padding: 10px; 
+}
+.d6{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    background: #0277BD;
+    text-align: center;
+    padding: 10px; 
+}
