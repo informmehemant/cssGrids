@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        /* implicit rows */
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            /* grid-template-rows: repeat(2, 100px); */
+            grid-gap: 5px;
+            /*  rows creat implicit */
+            grid-auto-rows: 75px;
+            grid-auto-flow: dense;
+        }
+
+        .horizonntal {
+            grid-column: auto / span 2;
+        }
+
+        .vertical {
+            grid-row: span 2;
+        }
+
+        .big {
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class='container'>
+        <div><img src="./images/a.jpg" /></div>
+        <div class="horizonntal"><img src="./images/b.jpg" /></div>
+        <div><img src="./images/c.jpg" /></div>
+        <div class="vertical"><img src="./images/d.jpg" /></div>
+        <div><img src="./images/e.jpg" /></div>
+        <div><img src="./images/a.jpg" /></div>
+        <div class="big"><img src="./images/b.jpg" /></div>
+        <div><img src="./images/c.jpg" /></div>
+        <div><img src="./images/d.jpg" /></div>
+        <div class="horizonntal"><img src="./images/e.jpg" /></div>
+        <div><img src="./images/b.jpg" /></div>
+        <div class="vertical"><img src="./images/c.jpg" /></div>
+        <div><img src="./images/d.jpg" /></div>
+        <div class="big"><img src="./images/e.jpg" /></div>
+        <div class="vertical"><img src="./images/b.jpg" /></div>
+        <div><img src="./images/c.jpg" /></div>
+        <div class="horizonntal"><img src="./images/d.jpg" /></div>
+        <div><img src="./images/e.jpg" /></div>
+
+    </div>
+
+</body>
+
+</html>

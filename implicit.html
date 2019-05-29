@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        /* implicit rows */
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-template-rows: repeat(2, 100px);
+            grid-gap: 5px;
+            /*  rows creat implicit */
+            grid-auto-rows: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class='container'>
+        <div class='d1'>1</div>
+        <div class='d2'>2</div>
+        <div class='d3'>3</div>
+        <div class='d4'>4</div>
+        <div class='d5'>5</div>
+        <div class='d6'>6</div>
+        <div class='d1'>7</div>
+        <div class='d2'>8</div>
+        <div class='d3'>9</div>
+        <div class='d4'>10</div>
+        <div class='d5'>11</div>
+        <div class='d6'>12</div>
+
+
+    </div>
+
+</body>
+
+</html>
